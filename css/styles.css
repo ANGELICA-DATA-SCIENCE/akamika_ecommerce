@@ -1,5 +1,5 @@
 :root {
-    --primary: #C5705D;
+    --primary: #C5805D;
     --secondary: #D0B8A8;
     --highligth: #DFD3C3;
     --bg: #724824;
@@ -65,7 +65,7 @@ p, li{
 
 .footer {
     background-color:#D8F0F0;
-    padding: 80px 70px;
+    padding: 80px 80px;
 }
 
 .footer-row{
