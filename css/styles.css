@@ -6,38 +6,93 @@
 }
 
 
+.d-block{
+    
+}
+
+
+
+.navbar{
+    background-color: var(--highligth);
+}
+
 
 .nav-link{
     color: var(--primary);
-    margin-inline: 8px;
+    margin-inline: 6px;
     align-content: center;
+    font-size: 14px;
 }
 
-.carousel-caption{
-    align-self: center;
+.icon-carrito{
+    max-width: 20px; 
+    opacity: 0.5; 
+    transition: 0.5;
 }
+
+
 
 h1, h2, h3, h4, h5{
     color: var(--bg);
 }
 .text-h1{
-    color: var(--bg);
-    text-shadow: var(--bg)
+    color: var(--white);
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: double;
 }
 p, li{
     color: var(--bg);
+    
 }
 .p-text{
-    color: var(--bg);
+    color: var(--white);
     font-size: 25px;
 }
 
+
+.row{
+    text-align: center;
+    align-items: center;
+    margin-inline: 100px;
+    gap:8rem;
+    
+}
+
+.col{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.col-sm{
+    align-items: center;
+    align-content: center;
+    
+}
+
+.col-md{
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+
+
 .cont-mision{
-    background-color: var(--highligth);
+    background-color: var(--secondary);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-center{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .icon{
-    width:50px;
+    width:30px;
     filter: white;
 }
 
@@ -50,10 +105,10 @@ p, li{
 }
 
 *{
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
     list-style: none;
+    font-size: 12px;
 }
 
 .containerfooter{
@@ -64,7 +119,7 @@ p, li{
 }
 
 .footer {
-    background-color:#D8F0F0;
+    background-color:#DFD3C3;
     padding: 80px 80px;
 }
 
@@ -84,7 +139,7 @@ p, li{
 }
 
 .footer-links h4 {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--primary);
     margin-bottom: 25px;
     font-weight: 500px;
@@ -94,7 +149,7 @@ p, li{
 }
 
 .footer-links ul li a{
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: var(--bg);
     display: block;
@@ -109,8 +164,8 @@ p, li{
 
 .icon-link{
     display: inline-block;
-    min-height: 40px;
-    width: 40px;
+    min-height: 30px;
+    width: 30px;
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -121,12 +176,12 @@ p, li{
 
 .icon-link:hover{
     color: var(--primary);
-    width: 50px;
+    width: 40px;
     
 
 }
 
-@media(max-width:991px) {
+@media(max-width:690px) {
     .footer-row{
         text-align: center;
     }
@@ -135,6 +190,14 @@ p, li{
         width: 100%;
         margin-bottom: 30px;
     }
+
+    .row{
+        margin-inline:40px;
+    }
+
 }
+
+
+/*/background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../images/personas-que-participan.png);
 
 
