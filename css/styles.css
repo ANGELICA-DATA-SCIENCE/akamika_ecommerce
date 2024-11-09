@@ -106,7 +106,7 @@ p, li{
 
     box-sizing: border-box;
     list-style: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .containerfooter{
@@ -191,7 +191,12 @@ p, li{
     }
 
     .row{
-        margin-inline:30px;
+        margin-inline:20px;
+    }
+
+    *{
+        font-size: 12px;
+        
     }
 
 }
