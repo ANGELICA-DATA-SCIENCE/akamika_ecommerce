@@ -14,12 +14,17 @@
 }
 
 
+
 .nav-link{
-    color: var(--primary);
+    color: #C5805D;
     margin-inline: 6px;
-    align-content: center;
-    font-size: 14px;
+    align-content:space-between;
+    justify-content: space-between;
+    justify-items: space-between;
+    font-size: 15px;
 }
+
+
 
 .icon-carrito{
     max-width: 20px; 
@@ -49,11 +54,11 @@ p, li{
 }
 
 
+
 .row{
     text-align: center;
     align-items: center;
-    margin-inline: 100px;
-    gap:8rem;
+    gap:1rem;
     
 }
 
@@ -78,16 +83,20 @@ p, li{
 
 
 
+
 .cont-mision{
     background-color: var(--secondary);
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
+
 .text-center{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
 }
+
+
 
 .icon{
     width:30px;
@@ -191,13 +200,20 @@ p, li{
     }
 
     .row{
-        margin-inline:20px;
+        /*margin-inline:20px;*/
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
     }
 
     *{
-        font-size: 12px;
+        font-size: 14px;
         
     }
+
+    
+
 
 }
 
